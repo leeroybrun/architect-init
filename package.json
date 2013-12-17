@@ -1,0 +1,26 @@
+{
+    "name": "architect-init",
+    "version": "0.1.0",
+    "author": "Leeroy Brun <leeroy.brun@gmail.com>",
+    "description": "CLI tool to help you start a new Architect app by creating all the structure and main files.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leeroybrun/architect-app-init.git"
+    },
+    "keywords": [
+        "architect",
+        "plugins",
+        "init",
+        "scaffold"
+    ], 
+    "license": "MIT",
+    "dependencies" : {
+        "commander": "2.1.0",
+        "mkdirp": "0.3.5",
+        "async": "0.2.9"
+    },
+    "engines": [
+        "node"
+    ],
+    "main": "./lib/cli.js"
+}
