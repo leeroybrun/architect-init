@@ -42,28 +42,28 @@ architect-init
 
 It will then ask you the following questions :
 
-- *Where is stored your plugins list file ?*
+- **Where is stored your plugins list file ?**
 
   Specify the path to your plugins list file created above. Default : plugins.conf
 
-- *Where do you want to store the plugins ?*
+- **Where do you want to store the plugins ?**
 
   The directory where to store plugins.  Default : lib/
 
-- *Do you want sub or dotted dirs for plugins ?*
-  - auto : keep the structure of your plugins.conf file (default)
-  - sub : force subdirs for "sub" plugins
-  - dotted : force dotted dirs for "sub" plugins
+- **Do you want sub or dotted dirs for plugins ?**
+  - **auto** : keep the structure of your plugins.conf file (default)
+  - **sub** : force subdirs for "sub" plugins
+  - **dotted** : force dotted dirs for "sub" plugins
 
-- *Create package.json file for each plugins (yes|no) ?*
+- **Create package.json file for each plugins (yes|no) ?**
 
   Create a default package.json file in each of the created folders. Template of the package.json file is located in `tpl/package.json`. Default : yes
 
-- *Create main file for each plugins (yes|no) ?*
+- **Create main file for each plugins (yes|no) ?**
 
   Create a main JS file in each of the created folders. Template of the main file is located in `tpl/main.js`. Default : yes
 
-- *Force the creation of files even if they exists (yes|no) ?*
+- **Force the creation of files even if they exists (yes|no) ?**
 
   Do you want to replace existing (package.json/main) files in directories ? Default : no
 
