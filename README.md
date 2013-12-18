@@ -1,7 +1,7 @@
 architect-init
 ===============
 
-CLI tool to help you start a new [Architect](https://github.com/c9/architect) app by creating all the structure and main files.
+CLI tool to help you start a new [Architect](https://github.com/c9/architect) app by creating all the structure and main files of your plugins.
 
 ## Install
 
