@@ -28,10 +28,10 @@ With default options (auto structure), this will create the following directory 
 
 ```plain
 lib
-├──firstplugin
-├──firstplugin.secondplugin
-└──thirdplugin
-    └──fourthplugin
+├─ firstplugin
+├─ firstplugin.secondplugin
+└─ thirdplugin
+    └─ fourthplugin
 ```
 
 ## Run
@@ -64,28 +64,28 @@ Here is the final structure of plugins with options :
 ### auto
 ```plain
 lib
-├──firstplugin
-├──firstplugin.secondplugin
-└──thirdplugin
-    └──fourthplugin
+├─ firstplugin
+├─ firstplugin.secondplugin
+└─ thirdplugin
+    └─ fourthplugin
 ```
 
 ### sub
 ```plain
 lib
-├──firstplugin
-│   └──secondplugin
-└──thirdplugin
-    └──fourthplugin
+├─ firstplugin
+│   └─ secondplugin
+└─ thirdplugin
+    └─ fourthplugin
 ```
 
 ### dotted
 ```plain
 lib
-├──firstplugin
-├──firstplugin.secondplugin
-├──thirdplugin
-└──thirdplugin.fourthplugin
+├─ firstplugin
+├─ firstplugin.secondplugin
+├─ thirdplugin
+└─ thirdplugin.fourthplugin
 ```
 
 ## TODO
