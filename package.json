@@ -15,8 +15,8 @@
     ], 
     "license": "MIT",
     "dependencies" : {
-        "prompt": "*",
-        "colors": "*",
+        "prompt": "0.2.12",
+        "colors": "0.6.2",
         "mkdirp": "0.3.5"
     },
     "engines": [
