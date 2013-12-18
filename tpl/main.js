@@ -1,5 +1,5 @@
 function setup(options, imports, register) {
-	// Your plugin code here
+    // Your plugin code here
 
     register(null, {
         '--pluginName--': {
