@@ -1,7 +1,7 @@
 {
     "name": "architect-init",
     "preferGlobal": "true",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "author": "Leeroy Brun <leeroy.brun@gmail.com>",
     "description": "CLI tool to help you start a new Architect app by creating all the structure and main files.",
     "repository": {
