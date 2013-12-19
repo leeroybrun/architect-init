@@ -1,7 +1,7 @@
 {
     "name": "--pluginName--",
     "version": "0.0.1",
-    "main": "--pluginName--.js",
+    "main": "./--pluginName--.js",
     "private": true,
     "plugin": {
         "consumes": [],
