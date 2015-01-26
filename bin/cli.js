@@ -13,7 +13,7 @@ cmd.action(require('./newProject'));
 // Generate new plugin folder
 cmd = program.command('generate <name>');
 cmd.description('Generate a new plugin');
-cmd.action(require('./newPlugin'));
+cmd.action(require('./generatePlugin'));
 
 program.parse(process.argv);
 var NO_COMMAND_SPECIFIED = program.args.length === 0;

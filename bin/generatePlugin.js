@@ -1,6 +1,6 @@
 var pkg  	= require('../package.json');
-var utils  	= require('./utils');
-var Plugin	= require('./Plugin');
+var utils  	= require('../lib/utils');
+var Plugin	= require('../lib/Plugin');
 
 module.exports = function(pluginOrigName) {
 	var plugin = new Plugin('./', pluginOrigName);
