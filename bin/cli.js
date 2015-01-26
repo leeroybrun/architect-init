@@ -3,8 +3,6 @@
 var program = require('commander');
 var pkg  	= require('../package.json');
 
-var newProject  	= require('./newProject');
-
 var cmd;
 
 // Generate new project
