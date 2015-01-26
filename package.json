@@ -1,7 +1,7 @@
 {
     "name": "architect-init",
     "preferGlobal": "true",
-    "version": "0.1.5",
+    "version": "1.0.0",
     "author": "Leeroy Brun <leeroy.brun@gmail.com>",
     "description": "CLI tool to help you start a new Architect app by creating all the structure and main files.",
     "repository": {
@@ -16,6 +16,7 @@
     ], 
     "license": "MIT",
     "dependencies" : {
+        "commander": "2.6.0",
         "prompt": "0.2.12",
         "colors": "0.6.2",
         "mkdirp": "0.3.5",
@@ -24,8 +25,8 @@
     "engines": [
         "node"
     ],
-    "main": "./lib/cli.js",
+    "main": "./bin/cli.js",
     "bin": {
-        "architect-init": "./lib/cli.js"
+        "architect-init": "./bin/cli.js"
     }
 }

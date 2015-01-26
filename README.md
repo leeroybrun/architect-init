@@ -36,8 +36,10 @@ lib
 
 ## Run
 
+### New project
+
 ```shell
-architect-init
+architect-init new
 ```
 
 It will then ask you the following questions :
@@ -66,6 +68,12 @@ It will then ask you the following questions :
 - **Force the creation of files even if they exists (yes|no) ?**
 
   Do you want to replace existing (package.json/main) files in directories ? Default : no
+
+### New plugin
+
+```shell
+architect-init generate <pluginName>
+```
 
 ## Directory structures
 
